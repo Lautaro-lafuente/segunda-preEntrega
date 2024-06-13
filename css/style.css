@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #aa6581;
+}
+@media (max-width:37.5rem){
+    body{
+    background-color:#2a1e1e ;
+    }
+    imgProceso{
+width: 50%;
+border-radius: 20%;
+    }
+    parteDeAbajo{
+        width: 60%;
+    }
+}
+@media(min-width: 37.5rem)
+{
+    body{
+        background-color: #aa6581;
+
+    }
+}
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: #bd6e8e;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 75px;
+    margin-right: 10px;
+    width: 75px;
+}
+
+.navBar a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2a1e1e;
+}
+.navBar a:hover{
+color:#ffc5c1;
+} 
+@media(max-width:700){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+ul li{
+    display: inline-block;
+    padding-left: 100px;
+    padding:  0px 20px;
+}
+
+main{
+    margin: 20px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+footer{
+    margin: 20px;
+    padding: 20px;
+    border-top: 2px solid black;
+    text-align: center;
+}
+.nombreEmpresa{
+    color: rgb(92, 79, 75); 
+    height: 20px;
+    padding: 40px;   
+} 
+.nuvelaSubTitulo{
+    background-color:#ffc5c1 ;
+    color: #2a1e1e;
+    height: 3%;
+    padding: 3%;
+    
+}
+.carrucel{
+    display: flex;
+    flex-wrap:nowrap ;
+    overflow:scroll;
+}
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 50px;
+
+    width: 350px;
+    height: 270px;
+}
+/* .slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 300%; 
+}
+.slider li{
+    width: 10%;
+    list-style: none;
+}
+.slider img{
+    width: 90%;
+    height: 80%;
+
+
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+} */
+.imagenesCuadradas{
+    background-color: #aa6581;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 40%;
+    margin: 15px auto;
+    border-radius: 20px ;
+    
+}
+.imagenesCuadradas img{
+width: 220px;
+height: 400px;
+border-radius: 30px;
+border:dashed 4px #ffc6c2 ;
+}
+.imagenesCuadradas h3{
+    margin: 0;
+    color: #ffc5d9;
+}
+.imagenesCuadradas p {
+    color: #ffc6c2;
+    
+    margin: right 15px; ;
+}
+
+.productoMasVendido{
+    background-color:#ffc6c2 ;
+    color: #2a1e1e;
+    height: 60px;
+    padding: 1px;
+    text-align: center;
+}
+.imagenesCuadradas{
+display: flex;
+justify-content: center;
+padding: 20px
+}
+.tiendaSubtitulo{
+    background-color:#ffc5c1 ;
+    color: #2a1e1e;
+    height: 3%;
+    padding: 3%;
+}
+.tiendaSubtitulo h3{
+    color: #2a1e1e;
+}
+
+
+.tiendaMain img{
+width: 220px;
+height: 400px;
+border-radius: 30px;
+border:dashed 2px #ffc6c2 ;
+}
+.tiendaMain p {
+    color: #ffc6c2;
+    
+    margin: left 20px; ;
+}
+
+.tiendaMain{
+display: flex;
+justify-content: center;
+padding: 20px
+}
+.tiendaMain2 img{
+    width: 220px;
+    height: 400px;
+    border-radius: 30px;
+    border:dashed 2px #ffc6c2 ;
+    }
+    .tiendaMain2 p {
+        color: #ffc6c2;
+        
+        margin: left 20px; ;
+    }
+    
+    .tiendaMain2{
+    display: flex;
+    justify-content: center;
+    padding: 20px
+    }
+    .tiendaMain3 img{
+        width: 220px;
+        height: 400px;
+        border-radius: 30px;
+        border:dashed 2px #ffc6c2 ;
+        }
+        .tiendaMain3 p {
+            color: #ffc6c2;
+            
+            margin: left 20px; ;
+        }
+        
+        .tiendaMain3{
+        display: flex;
+        justify-content: center;
+        padding: 20px
+        }
+        .blog{
+            background-color:#ffc5d9 ;
+    color: #2a1e1e;
+    height: 3%;
+    padding: 3%;
+        }
+        .blog h3{
+            text-align: center;
+            color: #2a1e1e;
+        }
+        .imagenBlog img{
+            width: 220px;
+            height: 400px;
+            border-radius: 30px;
+            border:dashed 2px #ffc6c2 ;
+            }
+            .imagenBlog p {
+                color: #ffc6c2;
+                
+                margin: left 20px; ;
+            }
+            
+            .imagenBlog{
+            justify-content: center;
+            padding: 20px
+            }
+            .imagenBlog1 img{
+                width: 320px;
+                height: 400px;
+                border-radius: 30px;
+                border:dashed 2px #ffc6c2 ;
+                }
+                .imagenBlog1 p {
+                    color: #ffc6c2;
+                    
+                    margin: left 20px; ;
+                }
+                
+                .imagenBlog1{
+                justify-content: center;
+                padding: 20px
+                }
+                .imagenBlog2 img{
+                    width: 320px;
+                    height: 400px;
+                    border-radius: 30px;
+                    border:dashed 2px #ffc6c2 ;
+                    }
+                    .imagenBlog2 p {
+                        color: #ffc6c2;
+                        
+                        margin: left 20px; ;
+                    }
+                    
+                    .imagenBlog2{
+                    justify-content: center;
+                    padding: 20px
+                    }
+                    .imagenBlog3 img{
+                        width: 320px;
+                        height: 400px;
+                        border-radius: 30px;
+                        border:dashed 2px #ffc6c2 ;
+                        }
+                        .imagenBlog3 p {
+                            color: #ffc6c2;
+                            
+                            margin: left 20px; ;
+                        }
+                        
+                        .imagenBlog3{
+                        justify-content: center;
+                        padding: 20px
+                    }
+                    .imagenBlog4 img{
+                        width: 320px;
+                        height: 400px;
+                        border-radius: 30px;
+                        border:dashed 2px #ffc6c2 ;
+                        }
+                        .imagenBlog4 p {
+                            color: #ffc6c2;
+                            
+                            margin: left 20px; ;
+                        }
+                        
+                        .imagenBlog4{
+                        justify-content: center;
+                        padding: 20px
+                        }
+                        .nombresDeParteDelEquipo{
+                            background-color:#ffd3e2 ;
+                            color: #2a1e1e;
+                            height: 1%;
+                            padding: 1%;
+                        }
+                        .nombresDeParteDelEquipo h4{
+                            text-align: center;
+                            color: #2a1e1e;
+                            text-align: none;
+                        }
+                        .suEncargo{
+                            background-color:#ffd3e2 ;
+                            color: #2a1e1e;
+                            height: 1%;
+                            padding: 1%;
+                        }
+                        .suEncargo h4{
+                            text-align: center;
+                            color: #2a1e1e;
+                            text-align: none;
+                        }
+                        .nombresDeParteDelEquipo2{
+                            background-color:#ffd3e2 ;
+                            color: #2a1e1e;
+                            height: 1%;
+                            padding: 1%;
+                        }
+                        .nombresDeParteDelEquipo2 h4{
+                            text-align: center;
+                            color: #2a1e1e;
+                            text-align: none;
+                        }
+                        .nombresDeParteDelEquipo3{
+                            background-color:#ffd3e2 ;
+                            color: #2a1e1e;
+                            height: 1%;
+                            padding: 1%;
+                        }
+                        .nombresDeParteDelEquipo3 h4{
+                            text-align: center;
+                            color: #2a1e1e;
+                            text-align: none;
+                        }
+                        .nombresDeParteDelEquipo4{
+                            background-color:#ffd3e2 ;
+                            color: #2a1e1e;
+                            height: 1%;
+                            padding: 1%;
+                        }
+                        .nombresDeParteDelEquipo4 h4{
+                            text-align: center;
+                            color: #2a1e1e;
+                            text-align: none;
+                        }
+                        .parteDeAbajo{
+    width: 100%;
+    background-color:#ffc6c2 ;
+    color: #2a1e1e;
+
+}
+
+.parteDeAbajo .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 40px 0px;
+}
+
+.parteDeAbajo .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parteDeAbajo .grupo1 .box figure img{
+    width: 250px;
+}
+.parteDeAbajo .grupo1 .box h2{
+    color: #2a1e1e;
+    margin-bottom: 25px ;
+    font-size: 20px;   
+}
+.parteDeAbajo .grupo1 .box p{
+    color: #ad5e7d;
+    margin-bottom: 10px;
+}
+.parteDeAbajo .grupo1 .red-social a{
+display: inline-block;
+text-decoration: none;
+width: 45px;
+height: 45px;
+line-height: 45px;
+color: aliceblue;
+margin-right: 10px;
+background-color: #ad5e7d;
+text-align: center;
+transition: all 300ms ease;
+}
+.parteDeAbajo .grupo1 .red-social a:hover{
+    color: #2a1e1e;
+}
+.parteDeAbajo .grupo2 small{
+    font-size: 15px;
+}
+
+@media screen and(max-width:800px){
+    .parteDeAbajo .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+form{
+    margin-top: 20px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2a1e1e;
+}
+input,textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border:2px solid #ffc6c2;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.inputformulaInput{
+    background-color: #2a1e1e;
+    color: #aa6581;
+    border: none;
+    padding:10px 20px ;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
